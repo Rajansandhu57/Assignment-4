@@ -31,11 +31,11 @@ namespace Assignment4
                     Console.WriteLine(ln);
                     Beowulf.Add(ln);
                 }
-                file.Close();
+                file . Close();
                 Console.WriteLine($"File has {counter}   lines.");
             }
         }
-        public int FindNumberOfBlankSpaces(string line)
+        public int FindNumberOfBlankSpaces(string  line)
         {
             int countletters = 0;
             int countSpaces = 0;
